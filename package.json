@@ -6,10 +6,16 @@
   "scripts": {
     "start": "npm run start --workspaces --if-present",
     "start-parallel": "echo 'not supported'",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "husky": "8.0.1"
+    "@commitlint/cli": "17.0.3",
+    "@commitlint/config-conventional": "17.0.3",
+    "commitizen": "4.2.5",
+    "cz-conventional-changelog": "3.3.0",
+    "husky": "8.0.1",
+    "semantic-release": "19.0.3"
   },
   "workspaces": [
     "applications/*",
