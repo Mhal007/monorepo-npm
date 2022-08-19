@@ -1,0 +1,18 @@
+{
+  "name": "@mhal007/monorepo-npm",
+  "version": "0.0.1",
+  "repository": "git@github.com:mhal007/monorepo-npm",
+  "homepage": "https://github.com/Mhal007/monorepo-npm#readme",
+  "scripts": {
+    "start": "npm run start --workspaces --if-present",
+    "start-parallel": "echo 'not supported'",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "8.0.1"
+  },
+  "workspaces": [
+    "applications/*",
+    "libraries/*"
+  ]
+}
