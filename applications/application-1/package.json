@@ -10,5 +10,8 @@
   },
   "scripts": {
     "start": "node index.js"
+  },
+  "dependencies": {
+    "@mhal007/monorepo-npm-library-1": "1.0.1"
   }
 }
