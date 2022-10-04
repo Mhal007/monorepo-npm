@@ -32,5 +32,3 @@ jobs:
 
       - name: Publish dry-run
         run: npx multi-semantic-release --dry-run --ignore-private-packages
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
