@@ -12,8 +12,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@mhal007/monorepo-npm-library-1": "1.0.0",
-    "@mhal007/monorepo-npm-library-2": "1.0.0",
-    "@mhal007/monorepo-npm-library-3": "1.0.0"
+    "@mhal007/monorepo-npm-library-1": "1.0.1",
+    "@mhal007/monorepo-npm-library-2": "1.0.1",
+    "@mhal007/monorepo-npm-library-3": "1.0.1"
   }
 }
