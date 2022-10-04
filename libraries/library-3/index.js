@@ -4,6 +4,6 @@ console.log('library-helper variable value is ' + libraryHelperVariable)
 
 console.log('Hello World from library-3');
 
-const changeThisToTriggerNewVersion = 4;
+const changeThisToTriggerNewVersion = 5;
 
 export default changeThisToTriggerNewVersion
