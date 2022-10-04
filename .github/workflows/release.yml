@@ -38,7 +38,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit new versions
-        run: HUSKY=0 git diff --quiet || git commit -am 'Versions bump'
+        run: git diff --quiet || HUSKY=0 git commit -am 'Versions bump'
 
       - name: Push committed changes
         run: HUSKY=0 git push
