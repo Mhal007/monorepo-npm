@@ -1,6 +1,6 @@
 {
   "name": "@mhal007/monorepo-npm-library-2",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "main": "index.js",
   "type": "module",
   "repository": "git@github.com:mhal007/monorepo-npm",
@@ -8,6 +8,6 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
-    "@mhal007/monorepo-npm-library-helper": "1.0.3"
+    "@mhal007/monorepo-npm-library-helper": "1.0.2"
   }
 }
