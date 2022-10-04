@@ -34,4 +34,5 @@ jobs:
       - name: Publish
         run: HUSKY=0 npx multi-semantic-release --ignore-private-packages
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
