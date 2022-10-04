@@ -15,7 +15,8 @@
     "commitizen": "4.2.5",
     "cz-conventional-changelog": "3.3.0",
     "husky": "8.0.1",
-    "semantic-release": "19.0.3"
+    "semantic-release": "19.0.3",
+    "multi-semantic-release": "3.0.1"
   },
   "workspaces": [
     "applications/*",

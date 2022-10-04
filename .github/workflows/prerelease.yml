@@ -31,6 +31,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish dry-run
-        run: npx semantic-release --dry-run
+        run: npx multi-semantic-release --dry-run
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
