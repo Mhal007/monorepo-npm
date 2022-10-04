@@ -6,6 +6,6 @@ console.log('library-2 variable value is ' + library2Variable)
 
 console.log('Hello World from application-2');
 
-const changeThisToTriggerNewVersion = 5;
+const changeThisToTriggerNewVersion = 3;
 
 export default changeThisToTriggerNewVersion
