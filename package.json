@@ -21,12 +21,5 @@
   "workspaces": [
     "applications/*",
     "libraries/*"
-  ],
-  "release": {
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator"
-    ],
-    "noCi": true
-  }
+  ]
 }
