@@ -7,7 +7,8 @@
   "scripts": {
     "start": "npm run start --workspaces --if-present",
     "start-parallel": "echo 'not supported'",
-    "manual-bump": "npm version --workspaces",
+    "manual-bump-minor": "npm version minor --workspaces",
+    "manual-bump-patch": "npm version patch --workspaces",
     "manual-publish": "npm publish --workspaces"
   },
   "workspaces": [
