@@ -7,9 +7,15 @@
   "scripts": {
     "start": "npm run start --workspaces --if-present",
     "start-parallel": "echo 'not supported'",
-    "manual-bump-minor": "npm version minor --workspaces",
-    "manual-bump-patch": "npm version patch --workspaces",
-    "manual-publish": "npm publish --workspaces"
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.0.3",
+    "@commitlint/config-conventional": "17.0.3",
+    "commitizen": "4.2.5",
+    "cz-conventional-changelog": "3.3.0",
+    "husky": "8.0.1",
+    "multi-semantic-release": "3.0.1"
   },
   "workspaces": [
     "applications/*",
