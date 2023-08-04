@@ -1,6 +1,6 @@
 {
   "name": "@mhal007/monorepo-npm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "git@github.com:mhal007/monorepo-npm",
   "private": true,
   "homepage": "https://github.com/Mhal007/monorepo-npm#readme",
