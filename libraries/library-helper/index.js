@@ -1,5 +1,5 @@
 console.log('Hello World from library-helper');
 
-const changeThisToTriggerNewVersion = 3;
+const changingThisDoesntTriggerANewVersionAutomatically = 3;
 
-export default changeThisToTriggerNewVersion
+export default changingThisDoesntTriggerANewVersionAutomatically

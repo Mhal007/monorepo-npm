@@ -8,6 +8,6 @@ console.log('library-3 variable value is ' + library3Variable)
 
 console.log('Hello World from application-3');
 
-const changeThisToTriggerNewVersion = 3;
+const changingThisDoesntTriggerANewVersionAutomatically = 3;
 
-export default changeThisToTriggerNewVersion
+export default changingThisDoesntTriggerANewVersionAutomatically
