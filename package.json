@@ -2,6 +2,9 @@
   "name": "@mhal007/monorepo-npm",
   "version": "0.0.1",
   "repository": "git@github.com:mhal007/monorepo-npm",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "private": true,
   "homepage": "https://github.com/Mhal007/monorepo-npm#readme",
   "scripts": {
